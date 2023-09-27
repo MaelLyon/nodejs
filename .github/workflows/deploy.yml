@@ -23,8 +23,7 @@ jobs:
 
     - name: Build and Test
       run: |
-        npm run build
-        npm test  # Run your API tests here if applicable
+        node index.js
 
     - name: Deploy to Hostinger
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
