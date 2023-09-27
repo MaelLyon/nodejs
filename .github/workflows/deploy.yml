@@ -27,7 +27,7 @@ jobs:
         npm test  # Run your API tests here if applicable
 
     - name: Deploy to Hostinger
-      uses: SamKirkland/FTP-Deploy-Action@3.1
+      uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
