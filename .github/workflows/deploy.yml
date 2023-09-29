@@ -1,4 +1,4 @@
-name: Deploy Node.js API to Hostinger
+name: Deploy to Hostinger
 
 on:
   push:
@@ -16,14 +16,13 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: 16
+        node-version: 16  
 
     - name: Install dependencies
       run: npm install
 
-    - name: Build and Test
-      run: |
-        node index.js
+    - name: Build Vue.js app
+      run: npm run build
 
     - name: Deploy to Hostinger
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
