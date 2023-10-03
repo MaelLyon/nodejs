@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "etc/server.ts",
-  "type": "module",
   "scripts": {
     "build": "tsc",
     "dev": "nodemon etc/server.ts",
-    "prod": "ts-node-esm etc/server.ts"
+    "prod": "ts-node etc/server.ts"
   },
   "repository": {
     "type": "git",
