@@ -1,4 +1,4 @@
-/** source/routes/test.ts */
+/** etc/routes/test.ts */
 import express from 'express';
 import controller from '../controllers/test';
 import { handleResponse } from '../shared/handle-response';

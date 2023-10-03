@@ -1,4 +1,4 @@
-/** source/controllers/test.ts */
+/** etc/controllers/test.ts */
 import connection from "../shared/db-connect";
 import { OkPacket } from "mysql2";
 
