@@ -1,5 +1,5 @@
 import mysql from "mysql2";
-import { dbConfig } from "../config/db.config";
+import { dbConfig } from "../secrets/db.config";
 
 export default mysql.createConnection({
   host: dbConfig.HOST,
