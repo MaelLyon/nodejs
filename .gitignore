@@ -133,3 +133,4 @@ dist
 etc/secrets/
 .vs/
 build/
+run.bat
