@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "nodemon etc/server.ts",
-    "prod": "ts-node etc/server.ts"
+    "prod": "ts-node-esm etc/server.ts"
   },
   "repository": {
     "type": "git",
