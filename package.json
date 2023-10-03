@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "nodemon source/server.ts",
-    "prod": "nodemon source/server.ts",
+    "prod": "nodemon source/server.ts"
   },
   "repository": {
     "type": "git",
