@@ -2,11 +2,11 @@
   "name": "nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "source/server.ts",
+  "main": "etc/server.ts",
   "scripts": {
     "build": "tsc",
-    "dev": "nodemon source/server.ts",
-    "prod": "nodemon source/server.ts"
+    "dev": "nodemon etc/server.ts",
+    "prod": "nodemon etc/server.ts"
   },
   "repository": {
     "type": "git",

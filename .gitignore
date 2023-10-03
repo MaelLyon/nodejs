@@ -130,6 +130,6 @@ dist
 .pnp.*
 
 # custom
-etc/config/
+etc/secrets/
 .vs/
 build/
