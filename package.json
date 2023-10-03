@@ -4,8 +4,9 @@
   "description": "",
   "main": "source/server.ts",
   "scripts": {
-    "dev": "nodemon source/server.ts",
     "build": "tsc"
+    "dev": "nodemon source/server.ts",
+    "prod": "nodemon source/server.ts",
   },
   "repository": {
     "type": "git",
